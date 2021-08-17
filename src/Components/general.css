@@ -1,0 +1,133 @@
+.navbar{
+    background-color: #3A606E;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    border-color: transparent;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    color: rgb(59, 59, 59);
+    height: 40px;
+}
+.input:focus{
+    outline: none;
+}
+.borgir{
+  background-color: #607B7D; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.borgir:hover{
+    cursor: pointer;
+}
+.easyFit{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-left: 360px;
+}
+.changeF{
+    background-color: #828E82; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 30px;
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    margin-left: 320px;
+}
+.changeF:hover{
+    cursor: pointer;
+}
+.icon{
+    height: 130px;
+    display: flex;
+    align-self: flex-start;
+}
+.weather{
+    font-size: 108px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-weight: 100;
+    left: 10px;
+    bottom: 60px;
+}
+.big{
+    font-size: 56px;
+    font-weight: 400;
+}
+.sub{
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    bottom: 30px;
+}
+.left{
+    width: 600px;
+    text-align: center;
+}
+.weekly{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 480px;
+}
+.dayName{
+    font-size: 28px;
+    font-weight: 300;
+    margin-left: 60px;
+}
+.img{
+    margin-left: 60px;
+}
+.center{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.flex{
+    display: flex;
+    margin-left: 90px;
+}
+.text{
+    margin-left: 8px;
+    font-weight: 300;
+}
+.grey{
+    color:grey;
+}
+.footer{
+    color:#3A606E;
+    background-color: #3A606E;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+}
